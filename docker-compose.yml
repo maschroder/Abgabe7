@@ -3,8 +3,8 @@ version: '3'
 services: 
     appservice: 
         container_name: nodeapp
-        #build: .
-        image: maschroder/image
+        build: .
+        #image: maschroder/image
         ports: 
             - '3001:3000'
         depends_on: 
