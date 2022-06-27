@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const { MongoClient, ObjectId } = require('mongodb');
-const client = new MongoClient("mongodb://127.0.0.1:27017"); // localhost == 127.0.0.1
+const client = new MongoClient("mongodb://mongo:27017"); // localhost == 127.0.0.1
 const dbName = "Aufgabe06";
 const collectionName = "poi";
 
